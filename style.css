@@ -82,14 +82,9 @@ ul.list-inline {
   transition: opacity ease-in-out 0.25s;
 }
 
+
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.portfolio-section{
-  padding-top: 1px;
-  padding-right: 5em;
-  padding-left: 5em;
-
-}
