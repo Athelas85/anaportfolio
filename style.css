@@ -60,7 +60,24 @@ ul.list-inline {
   text-align: center;
 }
 
-.front-end:hover {
+
+.section-heading{
+  padding: 10px;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.section-title{
+  text-align: inherit;
+  padding-left: 4em;
+  font-size: 20px;
+}
+
+.portfolio-img:hover {
   opacity: 0.5;
   transition: opacity ease-in-out 0.25s;
 }
@@ -70,18 +87,9 @@ ul.list-inline {
   margin-right: -15px;
 }
 
-.portfolio-front{
-  padding: 35px;
-}
-
-.front-end {
-  max-width: 35rem;
-  margin-left: auto;
-  margin-bottom: 15px;
-}
-
-.front-end img {
-  height: 300px;
-  background-size: cover;
+.portfolio-section{
+  padding-top: 1px;
+  padding-right: 5em;
+  padding-left: 5em;
 
 }
