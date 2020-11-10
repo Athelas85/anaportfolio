@@ -6,7 +6,7 @@ body {
 }
 
 #main-nav {
-  background-color: rgba(245, 245, 245, 0.4);
+  background-color: rgba(228, 144, 144, 0.41);
 
 }
 
@@ -94,3 +94,17 @@ ul.list-inline {
   padding-right: 5em;
 }
 
+.floating-label-form-group label {
+  opacity: 0;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+  font-size: 1.5em;
+}
+
+.copyright {
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
